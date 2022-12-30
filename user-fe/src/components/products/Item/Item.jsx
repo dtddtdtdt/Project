@@ -31,11 +31,11 @@ const Item = (props) => {
                         <h5 className="card-title fw-bold">₫ {props.price.toLocaleString()}</h5>
                         
                         {
-                        userCurrent && <button className="btn btn-primary" onClick={() => addItem(props)}>Thêm</button>
+                        userCurrent && <button className="btn btn-primary" onClick={() => addItem(props)}>Add</button>
                         } 
                         {
                            !userCurrent && (<NavLink to = '/login'>
-                                <button className="btn btn-primary">Thêm</button>
+                                <button className="btn btn-primary">Add</button>
                             </NavLink>)
                         }
                     </div>

@@ -18,16 +18,22 @@ const Cart = () => {
     return (
       <>
         <br></br>
-        <h1 className="text-center">Opps!...It's empty here and your kitties are really hungry now😿!</h1>
+        <h1> <strong className="text-center " style={{ paddingLeft: "100px"}}>My cart</strong> </h1>
+       <br></br>
+        <h1 className="text-center">Opps!...It's empty here and the kitties are really hungry now😿!</h1>
         <NavLink to={"/products"} className="nav-link text-center pt-3">
-          <h3 className="btn btn-outline-primary">Shopping Now</h3>
+          <h6 className="btn btn-outline-primary">Shopping Now</h6>
         </NavLink>
+        <br></br>
       </>
     );
   return (
     <section className="py-4 container">
       <div className="row">
         <div className="col-12">
+        <br></br>
+        <h1> <strong className="text-center " style={{ paddingLeft: "100px"}}>My cart</strong> </h1>
+       <br></br><br></br>
           <h5>
             Cart: ({totalUniqueItems}) Total Quanity: ({totalItems})
           </h5>
@@ -77,7 +83,7 @@ const Cart = () => {
                         className="btn btn-danger ms-2"
                         onClick={() => removeItem(item.id)}
                       >
-                        Xoá
+                        Delete
                       </button>
                     </td>
                   </tr>
@@ -91,7 +97,7 @@ const Cart = () => {
         </div>
         <div className="col-auto">
           <button className="btn btn-danger m-2" onClick={() => emptyCart()}>
-            Delete
+            Delete All Items
           </button>
           <NavLink to="/checkout" className="btn btn-primary">
             Checkout
