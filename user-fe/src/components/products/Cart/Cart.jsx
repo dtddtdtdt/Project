@@ -17,15 +17,10 @@ const Cart = () => {
   if (isEmpty)
     return (
       <>
-        <img
-          src="/assets/Cart/cart.png"
-          className="rounded mx-auto d-block"
-          alt="Background"
-          style={{ width: "250px", height: "250px" }}
-        />
-        <h1 className="text-center">Giỏ hàng của bạn còn trống</h1>
+        <br></br>
+        <h1 className="text-center">Opps!...It's empty here and your kitties are really hungry now😿!</h1>
         <NavLink to={"/products"} className="nav-link text-center pt-3">
-          <h3 className="btn btn-outline-primary">Mua Hàng</h3>
+          <h3 className="btn btn-outline-primary">Shopping Now</h3>
         </NavLink>
       </>
     );

@@ -49,9 +49,9 @@ const SingleProduct = () => {
                     
                     <h3 className="display-6 fw-bold my-4">₫ {productCurrent.price}</h3>
                     <p className="lead">{product.description}</p>
-                    {/* <button  className="btn btn-primary" onClick={() => addItem(productCurrent)}>Thêm vào giỏ hàng</button> */}
+                   
                     {
-                        userCurrent && <button className="btn btn-primary" onClick={() => addItem(productCurrent)}>Thêm</button>
+                        userCurrent && <button className="btn btn-primary" onClick={() => addItem(productCurrent)}>Add</button>
                         } 
                         {
                            !userCurrent && (<NavLink to = '/login'>

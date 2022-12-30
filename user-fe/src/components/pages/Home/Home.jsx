@@ -14,10 +14,10 @@ const Home = () => {
             <div className="container py-5">
             <img src="./assets/Home/bannercatfood1.jpg" className="card-img" alt="Background"/>
              </div>
-             <section className="pt-5 bg-warning">
-                    <div className="row">
-                            <div className="col-md-6 mb-10 mb-md-0">
-                                <NavLink className="category-item text-black" to={'/products'}>
+             <section className="pt-5 " style={{backgroundColor:"#F8F992"}}>
+                    <div className="row ">
+                            <div className="col-md-6 mb-10 mb-md-0 ">
+                                <NavLink className="category-item text-black" to={'/Dry food'}>
                                 <img src="./assets/Home/img-catfood.png" className="card-img" alt="Background"/>
                                     
                                     <div className='text-center'>
@@ -27,7 +27,7 @@ const Home = () => {
                                 </NavLink>
                             </div>
                             <div className="col-md-6 mb-10 mb-md-0">
-                                <NavLink className="category-item mb-4 text-black" to={'/products'}>
+                                <NavLink className="category-item mb-4 text-black" to={'/Wet food'}>
                                 <img src="./assets/Home/img-wetfood.png" className="card-img" alt="Background"/><br></br>
                                 <div className='text-center'>
                                      <h6 className="category-item-title text-gray">Wet Food</h6>
@@ -41,9 +41,7 @@ const Home = () => {
                         </div>
                         </section>
                   
-             <div className="card-img-overlay d-flex flex-column justify-content-center">
-                    
-                </div>
+             
              
             </div>
             

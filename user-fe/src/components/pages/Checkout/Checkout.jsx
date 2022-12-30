@@ -215,9 +215,19 @@ const Checkout = () => {
                 onChange={formik.handleChange}>
                   
                   <option value="">Choose...</option>
+                  <option>District 1</option>
+                  <option>District 2</option>
                   <option>District 3</option>
+                  <option>District 4</option>
                   <option>District 5</option>
-                  <option>Binh Thanh District</option>
+                  <option>District 6</option>
+                  <option>District 7</option>
+                  <option>District 8</option>
+                  <option>District 9</option>
+                  <option>District 10</option>
+                  <option>District 11</option>
+                  <option>District 12</option>
+                  
          
                 </select>
                 {formik.errors.district && (
