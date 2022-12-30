@@ -68,8 +68,12 @@ const Upload = () => {
 
   return (
     <div>
-      <div class="mb-3 col-md-5 mx-auto">
-        <label for="text">Product name</label>
+      <div class="mb-3 col-md-5 mx-auto"><br></br>
+      <div className='text-center'>
+        <br></br>
+        <h3>Add new product here</h3>
+      </div>
+        <label for="text">Product Name</label>
         <input type="text" class="form-control" id="title" name='title' placeholder="" onChange={handleChange}/>
       </div>
       <div class="mb-3 col-md-5 mx-auto">
@@ -90,10 +94,10 @@ const Upload = () => {
         <textarea type="text" class="form-control" id="description" name='description' placeholder="" onChange={handleChange}/>
       </div>
       <div class="mb-3 col-md-5 mx-auto">
-        <button onClick={() => openWidget()}>Upload picture</button>
+        <button className='btn ms-2 btn-outline-dark' onClick={() => openWidget()}>Upload picture</button>
       </div>
       <div class="mb-3 col-md-1 mx-auto">
-        <button onClick={handleSubmit}>Add</button>
+        <button className='btn ms-2 btn-dark' onClick={handleSubmit}>Add</button>
       </div>
     </div>
   );
