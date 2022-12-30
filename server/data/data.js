@@ -15,7 +15,7 @@ const products = [
     "price": 650000,
     "description": "40 mouth-watering meals for your mini mate. Convenient 5.5-ounce cans of high-protein wet cat food. Purr-pared to provide 100% complete and balanced nutrition. Features shredded chunks of poultry, meat or fish and savory gravy or juice.  Crafted with the tempting textures that cats love and flavors that are paw-sitively irresistible.",
     "image": "https://image.chewy.com/is/image/catalog/142563_MAIN._AC_SL1200_V1590595282_.jpg",
-    "category": "wet food",
+    "category": "Wet food",
     "rating": {
       "rate": 5,
       "count": 200
